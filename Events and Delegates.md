@@ -300,7 +300,7 @@ print("Hello");
 
 Equivalent conceptually to:
 
-```
+```c#
 delegate void Something(string message);
 ```
 
@@ -310,7 +310,7 @@ delegate void Something(string message);
 
 Represents a method that **returns a value**.
 
-```
+```c#
 Func<int, int> square = x => x * x;
 
 int result = square(5);
@@ -326,19 +326,19 @@ Output:
 
 The **last generic parameter is the return type**.
 
-```
+```c
 Func<int, int, int>
 ```
 
 means:
 
-```
+```c
 int + int → int
 ```
 
 Example:
 
-```
+```c#
 Func<int, int, int> add = (a, b) => a + b;
 ```
 
@@ -348,13 +348,13 @@ Func<int, int, int> add = (a, b) => a + b;
 
 Represents:
 
-```
+```c#
 input → bool
 ```
 
 Example:
 
-```
+```c#
 Predicate<int> isEven = x => x % 2 == 0;
 
 Console.WriteLine(isEven(10));
@@ -362,7 +362,7 @@ Console.WriteLine(isEven(10));
 
 Output:
 
-```
+```c
 True
 ```
 
@@ -376,21 +376,23 @@ This is where many beginners get confused.
 
 An **event is built on delegates**, but it adds access restrictions.
 
+look into [[Events]] for clear understanding.
+
 Consider:
 
-```
+```c#
 public Action<string>? MessageReceived;
 ```
 
 Any outside code could do:
 
-```
+```c#
 obj.MessageReceived = null;
 ```
 
 or:
 
-```
+```c#
 obj.MessageReceived = SomeMethod;
 ```
 
@@ -398,19 +400,19 @@ That's usually not what you want.
 
 An **event** allows the owning class to control invocation.
 
-```
+```c#
 public event Action<string>? MessageReceived;
 ```
 
 Subscribers can do:
 
-```
+```c#
 obj.MessageReceived += Handler;
 ```
 
 but they cannot invoke it:
 
-```
+```c#
 obj.MessageReceived("Hello"); // ❌
 ```
 
@@ -424,7 +426,7 @@ That's the fundamental difference.
 
 Let's build something realistic.
 
-```
+```c#
 public class OrderService
 {
     public event Action<string>? OrderCreated;
@@ -440,7 +442,7 @@ public class OrderService
 
 Subscriber:
 
-```
+```c#
 class Program
 {
     static void Main()
@@ -461,7 +463,7 @@ class Program
 
 Flow:
 
-```
+```c
 Program
    │
    │ subscribes
@@ -479,19 +481,19 @@ This is the **publisher/subscriber pattern**.
 
 For production .NET code, you'll very often encounter:
 
-```
+```c
 EventHandler
 ```
 
 and:
 
-```
+```c
 EventHandler<TEventArgs>
 ```
 
 The standard pattern looks like this:
 
-```
+```c#
 public class OrderCreatedEventArgs : EventArgs
 {
     public int OrderId { get; }
@@ -505,7 +507,7 @@ public class OrderCreatedEventArgs : EventArgs
 
 Then:
 
-```
+```c#
 public class OrderService
 {
     public event EventHandler<OrderCreatedEventArgs>? OrderCreated;
@@ -523,7 +525,7 @@ public class OrderService
 
 Subscriber:
 
-```
+```c#
 var service = new OrderService();
 
 service.OrderCreated += OnOrderCreated;
@@ -533,7 +535,7 @@ service.CreateOrder(123);
 
 Handler:
 
-```
+```c#
 static void OnOrderCreated(
     object? sender,
     OrderCreatedEventArgs e)

@@ -11,4 +11,4 @@
 
 [[Interfaces]]
 
-[[Events and Delegates]]
+[[Events and Delegates]]   ([[Events]])
