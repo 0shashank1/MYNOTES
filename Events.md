@@ -1325,6 +1325,17 @@ When you see this:
 public event EventHandler<OrderCreatedEventArgs>? OrderCreated;
 ```
 
+equal to 
+
+```c#
+
+public delegate void onOrderCreatedEventHandler(object? sender,OrderCreatedEventArgs args)
+
+public event onOrderCreatedEventHandler OrderCreated;
+```
+
+all this does is restricts to call the onOrderCreatedEventHandler outside of the class this is created in. --> the class(publisher) that has the event can only call that event , others can subscribe to that event by implementing the delegate function
+
 read it in your head as:
 
 > **"This class exposes a notification called `OrderCreated`. Other code can subscribe to it. When the class raises it, subscribers receive the object that raised it plus an `OrderCreatedEventArgs` containing the event data."**
