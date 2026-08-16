@@ -1279,3 +1279,5 @@ IPayment
 ```
 
 That is the **core value of interfaces in C#**: **abstraction + polymorphism + loose coupling**, which makes large applications easier to extend, test, and maintain.
+
+
