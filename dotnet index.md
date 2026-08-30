@@ -14,3 +14,5 @@
 [[Events and Delegates]]   ([[Events]])
 
 [[attributes and reflections]]
+
+[[linq index]]
