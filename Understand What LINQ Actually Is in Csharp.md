@@ -72,13 +72,14 @@ For example:
 ```csharp
 var result = numbers
     .Where(n => n > 10)
+    .select(n =>  n*10)
     .OrderBy(n => n)
     .Take(3);
 ```
 
 Read it almost like English:
 
-> From `numbers`, where the number is greater than 10, order them, then take 3.
+> From `numbers`, where the number is greater than 10, multipjly them by 10, order them, then take 3.
 
 This pipeline model is **very important** for understanding LINQ.
 

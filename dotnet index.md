@@ -16,3 +16,5 @@
 [[attributes and reflections]]
 
 [[linq index]]
+
+[[EF core index]]

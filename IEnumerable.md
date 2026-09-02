@@ -1,7 +1,5 @@
 # Phase 2 — `IEnumerable<T>`
 
-If Phase 1 was **“What is LINQ?”**, Phase 2 is about understanding the **foundation LINQ-to-Objects operates on**.
-
 The key idea:
 
 > **`IEnumerable<T>` represents something you can enumerate — one element at a time — as a sequence of `T`.**

@@ -24,7 +24,7 @@ Before going deep into LINQ, you should be comfortable with:
     
 - `Func<>` / `Action<>`
     
-- `IEnumerable<T>` [[IEnumerable<T>]]
+- `IEnumerable<T>` [[IEnumerable]]
     
 - `ICollection<T>`
     
@@ -114,7 +114,7 @@ This distinction becomes **extremely important** with Entity Framework Core.
 
 ---
 
-# Phase 2 —  [[IEnumerable<T>]]
+# Phase 2 —  [[IEnumerable]]
 
 This is the foundation.
 

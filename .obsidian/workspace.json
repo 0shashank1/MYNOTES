@@ -8,205 +8,27 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c2aebae9743a50b9",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "ac90a9e2285c1c26",
+            "id": "c1c0d4aee90a8fd4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Expression Trees.md",
+                "file": "IEnumerable.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "Expression Trees"
-            }
-          },
-          {
-            "id": "3c412dcde80ed638",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IEnumerable vs IQueryable.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "IEnumerable vs IQueryable"
-            }
-          },
-          {
-            "id": "2cdc05197abdfcdb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GroupJoin.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "GroupJoin"
-            }
-          },
-          {
-            "id": "69536308f8ee1abc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Joining.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Joining"
-            }
-          },
-          {
-            "id": "e077798a5e7b0275",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Advanced Grouping.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Advanced Grouping"
-            }
-          },
-          {
-            "id": "429a74b92ce547e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Grouping.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Grouping"
-            }
-          },
-          {
-            "id": "6854b63e8ddd6f53",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Aggregation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Aggregation"
-            }
-          },
-          {
-            "id": "37dc0d961944c771",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Quantifier Operators.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Quantifier Operators"
-            }
-          },
-          {
-            "id": "002163a339edae4a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Element Operators.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Element Operators"
-            }
-          },
-          {
-            "id": "0c67de08f0673c16",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ordering.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Ordering"
-            }
-          },
-          {
-            "id": "72e90ea8df9e35b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projection in LINQ.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Projection in LINQ"
-            }
-          },
-          {
-            "id": "fb39345f4752f686",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "ba32dcddcf1ccd76",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IEnumerable<T>.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "IEnumerable<T>"
-            }
-          },
-          {
-            "id": "3ee5fda81906650b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Understand What LINQ Actually Is in Csharp.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Understand What LINQ Actually Is in Csharp"
+              "title": "IEnumerable"
             }
           }
         ]
@@ -376,15 +198,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "c2aebae9743a50b9",
+  "active": "c1c0d4aee90a8fd4",
   "lastOpenFiles": [
-    "Understand What LINQ Actually Is in Csharp.md",
+    "What Exactly Is EF Core.md",
+    "next index.md",
+    "Index.md",
+    "EF core index.md",
+    "dotnet index.md",
     "linq index.md",
-    "Projection in LINQ.md",
-    "Events.md",
     "Expression Trees.md",
     "IEnumerable vs IQueryable.md",
-    "GroupJoin.md",
     "Joining.md",
     "Advanced Grouping.md",
     "Grouping.md",
@@ -392,17 +215,16 @@
     "Quantifier Operators.md",
     "Element Operators.md",
     "Ordering.md",
+    "Projection in LINQ.md",
+    "Understand What LINQ Actually Is in Csharp.md",
+    "IEnumerable.md",
+    "GroupJoin.md",
     "Core LINQ Operators.md",
-    "IEnumerable<T>.md",
-    "dotnet index.md",
+    "Events.md",
     "Events and Delegates.md",
     "dotnet compilation and runtime.md",
     "namespaces.md",
     "virtual and abstract.md",
-    "classes vs structs.md",
-    "attributes and reflections.md",
-    "wug.md",
-    "Untitled.md",
-    "delegate.md"
+    "classes vs structs.md"
   ]
 }
