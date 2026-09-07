@@ -15,6 +15,8 @@
 
 [[attributes and reflections]]
 
+[[webapplication and builder configs]]
+
 [[linq index]]
 
 [[EF core index]]

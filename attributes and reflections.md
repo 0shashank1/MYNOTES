@@ -87,7 +87,7 @@ The attribute doesn't automatically _do_ anything. It simply stores metadata.
 
 ---
 
-# 3. Reflection in C#
+# 3. Reflection in C\#
 
 **Reflection** allows a program to inspect types and their metadata **at runtime**.
 
@@ -309,7 +309,7 @@ Type type = typeof(Student);
 
 object student = Activator.CreateInstance(type)!;
 ```
-c
+
 You can then access its properties dynamically:
 
 ```csharp

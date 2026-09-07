@@ -280,7 +280,7 @@ Avoid treating `DbContext` as a permanent application-wide singleton.
 
 ---
 
-# 4. Database Configuration
+# 4. Database Configuration  
 
 Learn:
 
@@ -377,7 +377,7 @@ Database schema change
 
 ---
 
-# 6. EF Core Conventions
+# 6. EF Core Conventions  [[entity]]
 
 Before configuration, understand what EF Core does automatically.
 
@@ -1826,7 +1826,7 @@ Infrastructure
 
 ---
 
-# 44. Entity Configurations
+# 44. [[Entity Configuration]] 
 
 Instead of putting everything inside:
 
