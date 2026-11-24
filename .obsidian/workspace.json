@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IEnumerable.md",
+                "file": "queue<T>.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,155 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "IEnumerable"
+              "title": "queue<T>"
+            }
+          },
+          {
+            "id": "1f1a61cdf2c8ebef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Competitive programming.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Competitive programming"
+            }
+          },
+          {
+            "id": "e8c475483dfc4e4a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "namespaces.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "namespaces"
+            }
+          },
+          {
+            "id": "6dee988cfb528858",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pair<T, U>.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "pair<T, U>"
+            }
+          },
+          {
+            "id": "aa73197fdb18ecda",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Iterators.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Iterators"
+            }
+          },
+          {
+            "id": "f3cfeb995bdb6817",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Containers.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Containers"
+            }
+          },
+          {
+            "id": "56d4ebe8b2c42e51",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Containers.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Containers"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -198,33 +343,33 @@
       "bases:Create new base": false
     }
   },
-  "active": "c1c0d4aee90a8fd4",
+  "active": "e8c475483dfc4e4a",
   "lastOpenFiles": [
+    "dotnet index.md",
+    "dotnet compilation and runtime.md",
+    "unordered_map<K, V>.md",
+    "Containers.md",
+    "Competitive programming.md",
+    "queue<T>.md",
+    "STL index.md",
+    "Index.md",
+    "pair<T, U>.md",
+    "imp links.md",
+    "multiset<T>.md",
+    "unordered_set<T>.md",
+    "set<T>.md",
+    "map<K, V>.md",
+    "stack<T>.md",
+    "vector<T>.md",
+    "multimap<K, V>.md",
+    "Iterators.md",
+    "Algorithms.md",
+    "Functors.md",
+    "IEnumerable.md",
     "What Exactly Is EF Core.md",
     "next index.md",
-    "Index.md",
     "EF core index.md",
-    "dotnet index.md",
     "linq index.md",
-    "Expression Trees.md",
-    "IEnumerable vs IQueryable.md",
-    "Joining.md",
-    "Advanced Grouping.md",
-    "Grouping.md",
-    "Aggregation.md",
-    "Quantifier Operators.md",
-    "Element Operators.md",
-    "Ordering.md",
-    "Projection in LINQ.md",
-    "Understand What LINQ Actually Is in Csharp.md",
-    "IEnumerable.md",
-    "GroupJoin.md",
-    "Core LINQ Operators.md",
-    "Events.md",
-    "Events and Delegates.md",
-    "dotnet compilation and runtime.md",
-    "namespaces.md",
-    "virtual and abstract.md",
-    "classes vs structs.md"
+    "Expression Trees.md"
   ]
 }
