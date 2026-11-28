@@ -61,8 +61,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "namespaces.md",
-                "mode": "preview",
+                "file": "Index.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -76,7 +76,55 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "namespaces"
+              "title": "Index"
+            }
+          },
+          {
+            "id": "ea7e80793ff2efe8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "settings and configs.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "settings and configs"
+            }
+          },
+          {
+            "id": "1c90beacfba1a300",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "zed.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "zed"
             }
           },
           {
@@ -345,6 +393,11 @@
   },
   "active": "e8c475483dfc4e4a",
   "lastOpenFiles": [
+    "file:/home/shashank/mine/projects/antifingerprint/prompt.md",
+    "Index.md",
+    "settings and configs.md",
+    "zed.md",
+    "namespaces.md",
     "dotnet index.md",
     "dotnet compilation and runtime.md",
     "unordered_map<K, V>.md",
@@ -352,7 +405,6 @@
     "Competitive programming.md",
     "queue<T>.md",
     "STL index.md",
-    "Index.md",
     "pair<T, U>.md",
     "imp links.md",
     "multiset<T>.md",
@@ -366,10 +418,6 @@
     "Algorithms.md",
     "Functors.md",
     "IEnumerable.md",
-    "What Exactly Is EF Core.md",
-    "next index.md",
-    "EF core index.md",
-    "linq index.md",
-    "Expression Trees.md"
+    "What Exactly Is EF Core.md"
   ]
 }
